@@ -156,7 +156,7 @@ header ul li:hover a {
     max-height: 720px;
 }
 
-.painel .informacoes .social-icons {
+.painel .informacoes .follow-btn {
     margin-top: 10px;
     color: var(--text-color);
     font-size: 30px;
@@ -171,13 +171,16 @@ header ul li:hover a {
     transition: 0.2s transform ease-in-out;
 }
 
-.painel .informacoes .social-icons:hover {
+.painel .informacoes .follow-btn:hover {
     background-color: #ada6a6;
     transform: scale(1.05);
     cursor: pointer;
 }
 
-.painel .informacoes .follow-title {
+.painel .informacoes .follow-btn {
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
     display: flex;
     color: var(--text-color);
     font-size: 30px;
