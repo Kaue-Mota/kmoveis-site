@@ -50,6 +50,10 @@ main {
     
 }
 
+.header h1::first-letter {
+    color: rgb(255, 208, 0);
+}
+
 .header a:hover h1{
     color: #a4ac86;
 }
@@ -152,6 +156,9 @@ main {
     overflow: hidden;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    
 }
 
 .slides {
