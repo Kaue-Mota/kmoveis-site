@@ -10,20 +10,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="src/css/menu.css">
 
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1><a href="index.html">Kmoveis</a></h1>
+    <header class="header">
+        <div class="header-container">
+            <a href="/">
+                <h1>Kmoveis</h1>
+            </a>
+
+            <nav>
+                <input type="checkbox" id="menu-hamburger">
+                <label for="menu-hamburger">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
 
 
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li class="texture"><a href="index2.html">Texturas</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul class="menu">
-            <li><a href="index2.html">Texturas</a></li>
-            <li><a href="#">Encontre-nos</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
     </header>
     
     <section>
